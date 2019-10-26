@@ -3,8 +3,9 @@
 
 @section('content')
     <div class="center jumbotron">
-        <dic class="text-center">
+        <div class="text-center">
             <h1>Welcome to the Microposts</h1>
-        </dic>
+            {!! link_to_route('signup.get', 'Sign up now!', [], ['class' => 'btn btn-lg btn-primary']) !!}
+        </div>
     </div>
 @endsection
